@@ -35,6 +35,17 @@ Use them as the other rules.
 
 
 ## Change Log
+### 4.2:
+* Added PHP 5.2 compatibility. Bettered the mime loading from config directory.
+
+### 4.1:
+* Now the error field message shows all the error messages that it has and not only the first one.
+
+### 4.0:
+* Where there is a file upload, now file_required and required force the user to upload a file.
+* Added image icon mimes.
+* Added valid_date method that checks if a field has a valid date format.
+*Added valid_range_date method that checks if a field has a valid range of two dates.
 
 ### 3.2
 * Changed `valid_hour`rule to accept 24 and 12 hour format
